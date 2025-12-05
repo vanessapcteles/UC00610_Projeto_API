@@ -22,11 +22,12 @@ src/
 │   ├── AnimeCard.jsx      # Componente de cartão de anime
 │   ├── navbar.jsx         # Barra de navegação
 │   └── footer.jsx         # Rodapé
-├── pages/
-│   ├── HomePage.jsx       # Página inicial
-│   ├── TopAnimePage.jsx   # Listagem de top animes
-│   └── AnimeDetailsPage.jsx # Detalhes do anime
-└── services/              # (Pasta para serviços de API)
+├── context/
+│   └── ThemeContext.jsx   # Contexto para tema claro/escuro
+└── pages/
+    ├── HomePage.jsx       # Página inicial
+    ├── TopAnimePage.jsx   # Listagem de top animes
+    └── AnimeDetailsPage.jsx # Detalhes do anime
 ```
 
 ## ✨ Funcionalidades Implementadas
@@ -102,7 +103,7 @@ O servidor será iniciado em `http://localhost:5173`
 | 1. Escolha da API | ✅ | Jikan API - REST, HTTP, listagem + detalhes |
 | 2. Exploração da API | ✅ | Documentação consultada, endpoints identificados |
 | 3. Projeto Vite | ✅ | React + Vite + Bootstrap configurados |
-| 4. Estrutura | ✅ | Pastas components/, pages/, services/ |
+| 4. Estrutura | ✅ | Pastas components/, pages/, context/ |
 | 5. Navbar/Footer | ✅ | Responsivos com Bootstrap |
 | 6. Página Inicial | ✅ | Apresentação do projeto e API |
 | 7. Fetch de Dados | ✅ | useEffect + useState + tratamento de estados |
