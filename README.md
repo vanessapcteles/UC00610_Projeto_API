@@ -4,7 +4,7 @@ Aplicação React para explorar animes usando a Jikan API (MyAnimeList).
 
 ## 📋 Sobre o Projeto
 
-Este projeto foi desenvolvido para a **UC 00610 - Criar e integrar bases de dados no SQL nas apps**, demonstrando a integração de uma aplicação React com uma API pública REST.
+Este projeto foi desenvolvido para a **UC 00610 - Criar e integrar bases de dados noSQL nas apps**, demonstrando a integração de uma aplicação React com uma API pública REST.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -22,6 +22,8 @@ src/
 │   ├── AnimeCard.jsx      # Componente de cartão de anime
 │   ├── navbar.jsx         # Barra de navegação
 │   └── footer.jsx         # Rodapé
+├── context/
+│   └── ThemeContext.jsx   # Contexto para tema claro/escuro
 └── pages/
     ├── HomePage.jsx       # Página inicial
     ├── TopAnimePage.jsx   # Listagem de top animes
@@ -93,7 +95,6 @@ O servidor será iniciado em `http://localhost:5173`
   }
 }
 ```
-
 ## 🎨 Componentes Principais
 
 ### AnimeCard
